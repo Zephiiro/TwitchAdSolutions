@@ -8,7 +8,7 @@ twitch-videoad.js text/javascript
         scope.ClientSession = 'null';
         scope.PlayerType2 = 'embed'; //Source
         scope.PlayerType3 = 'site'; //Source
-        scope.PlayerType4 = 'autoplay'; //1080p
+        scope.PlayerType4 = 'embed'; //360p
         scope.CurrentChannelName = null;
         scope.UsherParams = null;
         scope.WasShowingAd = false;
