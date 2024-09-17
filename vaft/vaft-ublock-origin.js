@@ -104,8 +104,8 @@ twitch-videoad.js text/javascript
                             if (OriginalVideoPlayerQuality == null) {
                                 OriginalVideoPlayerQuality = currentQuality;
                             }
-                            if (!currentQuality.includes('360') || e.data.value != null) {
-                                if (!OriginalVideoPlayerQuality.includes('360')) {
+                            if (!currentQuality.includes('720') || e.data.value != null) {
+                                if (!OriginalVideoPlayerQuality.includes('720')) {
                                     var settingsMenu = document.querySelector('div[data-a-target="player-settings-menu"]');
                                     if (settingsMenu == null) {
                                         var settingsCog = document.querySelector('button[data-a-target="player-settings-button"]');
